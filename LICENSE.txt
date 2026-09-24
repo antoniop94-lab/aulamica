@@ -1,0 +1,18 @@
+AulaMica - Condizioni d'uso
+Copyright (c) 2026 Antonio Paterno. Tutti i diritti riservati.
+
+È consentito scaricare, installare e utilizzare gratuitamente AulaMica.
+
+Salvo preventiva autorizzazione scritta del titolare, non è consentito:
+- modificare, decompilare o creare opere derivate dal programma, salvo quanto inderogabilmente consentito dalla legge;
+- vendere, concedere in sublicenza o sfruttare commercialmente il programma;
+- redistribuire copie dell'installer o pubblicarlo su servizi diversi dal canale ufficiale;
+- rimuovere o alterare indicazioni di titolarità, nome, logo o altri segni distintivi;
+- presentare AulaMica o sue copie come prodotto proprio.
+
+Il software è fornito "così com'è", senza garanzie espresse o implicite, nei limiti consentiti dalla legge. Il titolare non risponde di danni indiretti, perdita di dati o risultati derivanti da utilizzi impropri.
+
+AulaMica include componenti di terze parti distribuiti secondo le rispettive licenze. Tali componenti restano soggetti ai diritti e alle condizioni dei rispettivi titolari.
+
+Canale ufficiale:
+https://github.com/antoniop94-lab/aulamica
