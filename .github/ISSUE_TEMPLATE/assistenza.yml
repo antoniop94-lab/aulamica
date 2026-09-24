@@ -1,0 +1,58 @@
+name: Richiesta di assistenza
+description: Segnala un problema tecnico riscontrato con AulaMica
+title: "[Assistenza] "
+labels:
+  - assistenza
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie per la segnalazione. Non inserire nomi, registrazioni, documenti, fotografie o altri dati personali di studenti, famiglie o personale scolastico.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area del problema
+      options:
+        - Installazione o avvio
+        - Microfono o registrazione
+        - Trascrizione
+        - Traduzione
+        - Voce o riascolto
+        - Disinstallazione
+        - Altro
+    validations:
+      required: true
+  - type: input
+    id: versione
+    attributes:
+      label: Versione di AulaMica
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Versione di Windows
+      placeholder: "Windows 11 64 bit"
+    validations:
+      required: true
+  - type: textarea
+    id: descrizione
+    attributes:
+      label: Descrizione del problema
+      description: Spiega cosa è successo senza includere dati personali.
+      placeholder: Indica i passaggi eseguiti e il messaggio di errore visualizzato.
+    validations:
+      required: true
+  - type: textarea
+    id: atteso
+    attributes:
+      label: Risultato atteso
+      placeholder: Che cosa avrebbe dovuto accadere?
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Conferma privacy
+      options:
+        - label: Confermo di non aver inserito dati personali o contenuti riservati.
+          required: true
